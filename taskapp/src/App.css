@@ -1,0 +1,78 @@
+body {
+  color: rgb(15, 17, 17);
+  background-color: #110a0a;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.shopping-list {
+  max-width: 400px;
+  margin: 90px auto;
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type:none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: red;
+  font-size: 1.2em;
+  margin-left: 8px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px; 
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #080908;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #090a09;
+}
+
+.clear-button {
+  margin-top: 16px;
+  padding: 8px 12px;
+  background-color: #c03333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background-color: #5d0606;
+}
